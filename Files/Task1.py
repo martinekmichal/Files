@@ -1,7 +1,8 @@
 def load_data(path="DATA/text.txt"):
-    f = open(path, "r")
-    data = f.read()
-    f.close()
+    with open(path, "r", encoding='utf-8') as f:
+    #f = open(path, "r")
+        data = f.read()
+   # f.close()
     return data
 
 def filter7(data):
