@@ -43,4 +43,3 @@ with open(cil, "w", encoding="UTF-8") as S2:
 
 print("Bylo zapsáno do souboru 'cil=DATA/L9T2.txt' " )
 
-# zde jsme se zasekl kvůli kopirovaní řádku.... řádek 25 jsme překopíroval na řádek 37 ..... zásek byl na ve znaménku "w"
