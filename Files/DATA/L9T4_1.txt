@@ -1,0 +1,1 @@
+Nejdelší řádek je: 15
