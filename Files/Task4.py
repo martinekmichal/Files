@@ -2,7 +2,7 @@ def hvezdicky(zdroj="DATA/text.txt", cil="DATA/text2.txt"):
     with open(zdroj, 'r', encoding='utf-8') as z:
         radky = z.readlines()
         posledni = -1
-        for i in radky:
+        for i, radek in radky:
             if "," not in radek:
                 posledni = i
 
